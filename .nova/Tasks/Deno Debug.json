@@ -1,0 +1,19 @@
+{
+  "extension" : {
+    "identifier" : "panic.JavaScript",
+    "name" : "JavaScript"
+  },
+  "extensionTemplate" : "denoDebug",
+  "extensionValues" : {
+    "launchArgs" : [
+      "orange",
+      "blue",
+      "red"
+    ],
+    "port" : 9229,
+    "runtimeArgs" : [
+      "--allow-all"
+    ],
+    "scriptPath" : "main.ts"
+  }
+}
